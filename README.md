@@ -141,7 +141,7 @@ _мое решение (на языке Java) в папочке Task10_
 
 | На вход (main)      | ожидаемый вывод в консоль|
 | ------------- |:-------------:|
-| Vector2D v = new Vector2D(1.2374, 2.2334); <br /> Vector2D v2 = new Vector2D(); <br />Vector2D v3 = new Vector2D(v);<br />v.print();<br />v2.print();<br />v3.prin();  <br />  |(1.24, 2.23) <br /> (1.00, 1.00) <br /> (1.24, 2.23) |
+| Vector2D v = new Vector2D(1.2374, 2.2334); <br /> Vector2D v2 = new Vector2D(); <br />Vector2D v3 = new Vector2D(v);<br />v.print();<br />v2.print();<br />v3.print();  <br />  |(1.24, 2.23) <br /> (1.00, 1.00) <br /> (1.24, 2.23) |
 | Vector2D vA = new Vector2D(); <br />Vector2D vB = new Vector2D(1.0, 3.0);<br />Vector2D vc = new Vector2D(vB);<br />vA.add(vB);<br />VA.print();<br />vA.sub(vC);<br />VA.print();<br />system.out.print1n(vB.length());<br />vC.scale(2);<br />vC.print();<br />| (2.00, 4.00)<br />(1.00, 1.00)<br />3.1622776601683795<br />(2.00, 6.00)<br /> |
 | Vector2D vA = new Vector2D(); <br />Vector2D vB = new Vector2D(5.0, 7.0); <br />Vector2D vc = new Vector2D(vB) ;<br />vA.add(vB); <br />VA.print();<br />vA.sub(vC);<br />VA.print();<br />system.out.println(vB.length());<br />vC.scale(1.5);<br />vC.print();<br />vC.normalized() ;<br />System.out.println(vC.Length());<br />vC.scale(2);<br />system.out.println(vA.dotProduct(vB))<br />system.out.println(vA.count) ;<br /> | (6.00 8.00)  <br /> (1.00 1.00) <br />8.602325267<br />(7.50 10.50)<br />1.0<br />12.0<br />3<br />    |
 
